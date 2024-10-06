@@ -22,7 +22,8 @@ def load(file_path):
         conn = sqlite3.connect("BirthsDB.db")
         c = conn.cursor()
 
-        # Drop the table if it exists, and create a new one with an auto-incrementing primary key
+        # Drop the table if it exists,
+        # and create a new one with an auto-incrementing primary key
         c.execute("DROP TABLE IF EXISTS births")
         c.execute(
             """

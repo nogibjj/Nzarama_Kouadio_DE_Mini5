@@ -20,6 +20,6 @@ container-lint:
 refactor: format lint
 
 deploy:
-	#deploy goes here
+	git push origin main
 		
 all: install lint test format deploy
