@@ -10,7 +10,9 @@ This project demonstrates basic CRUD (Create, Read, Update, Delete) operations o
 The main script connects to an SQLite database and performs the following operations:
 
 **Extract** : Download and extract a dataset (US Births).
+
 **Load** : Load the extracted dataset into the SQLite database.
+
 **Read** : Query the births table to retrieve specific records, with flexibility for custom SQL queries.
 
 
