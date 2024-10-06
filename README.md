@@ -37,10 +37,15 @@ The main script connects to an SQLite database and performs the following operat
 The births table has the following columns:
 
 `id`: Unique identifier for each record (auto-incremented).
+
 `year`: Year of birth (integer).
+
 `month`: Month of birth (integer).
+
 `date_of_month`: Day of the month (integer).
+
 `day_of_week`: Day of the week (integer).
+
 `births`: Number of births (integer).
 
 # Setup Instructions
@@ -56,8 +61,11 @@ The births table has the following columns:
 All CRUD opeartions are implemented in query.py in the my_lib.py folder:
 
 **Create** : Implemented as create_birth_record(), which inserts a new birth record into the database.
+
 **Read** : Implemented as read_top_records() and query_data(), which retrieves records from the database (default and custom queries).
+
 **Update** : Implemented as update_birth_record(), which updates the number of births for a specific record based on the record's ID.
+
 **Delete** : Implemented as delete_birth_record(), which deletes a record from the births table based on the record's ID.
 
 # SQL Queries
