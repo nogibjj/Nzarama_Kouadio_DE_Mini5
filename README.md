@@ -1,15 +1,15 @@
 ## Mini Project 5: SQLite Lab
-INCLUDE BADGE 
+[![CI](https://github.com/nogibjj/Nzarama_Kouadio_DE_Mini5/actions/workflows/cicd.yml/badge.svg)](https://github.com/nogibjj/Nzarama_Kouadio_DE_Mini5/actions/workflows/cicd.yml)
 
 # Births Database CRUD Operations with SQLite
 
-This project demonstrates basic CRUD (Create, Read, Update, Delete) operations on a table displaying the number of births in the US from 2000 to 2014 using a SQLite database in Python. The project includes a Python script that supports querying the database and a test file to validate the functionality.
+This project demonstrates basic CRUD (Create, Read, Update, Delete) operations on a table displaying the number of births in the US from 2000 to 2014 using a SQLite database in Python. It includes a Python script that supports querying the database and a test file to validate the functionality.
 
 # Project Overview
 
 The main script connects to an SQLite database and performs the following operations:
 
-**Extract** : Download and extract a dataset (US Births).
+**Extract** : Download and extract the dataset (US Births).
 
 **Load** : Load the extracted dataset into the SQLite database.
 
@@ -58,7 +58,7 @@ The births table has the following columns:
 
 # CRUD Operations
 
-All CRUD opeartions are implemented in query.py in the my_lib.py folder:
+All CRUD operations are implemented in query.py in the my_lib.py folder:
 
 **Create** : Implemented as create_birth_record(), which inserts a new birth record into the database.
 
@@ -81,8 +81,8 @@ Here are some example queries executed using the `main.py` script, showing the r
 
 **Example 1**: Run the default query (top 5 rows)
 
-**Example 2**: Fetch Births on April 11, 2002
+**Example 2**: Fetch births data on April 11, 2002
 
-**Example 3**: Query Ouput for All January 2010 Births
+**Example 3**: Query ouput for all January 2010 Births
 
 ![image_failed_load](QueryExampleImages/Example_Query.png)

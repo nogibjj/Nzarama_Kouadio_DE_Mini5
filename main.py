@@ -13,7 +13,7 @@ def main(query_string=None):
     print("Transforming data...")
     load(file_path)
 
-    # Step 3: Run a custom query if provided
+    # Step 3: Run custom query if given
     if query_string:
         print("Running custom query...")
         query_data(query_string)
